@@ -1,0 +1,96 @@
+.featured {
+  padding: 10px;
+  border: 1px solid skyblue;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: white;
+}
+.featured-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.featured-header > span {
+  font-size: 1.4rem;
+}
+.featured-button .see-all {
+  padding: 2px;
+  cursor: pointer;
+  height: 20px;
+  margin-top: 8px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #666666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  border-radius: 2px;
+}
+.featured-button > .see-all:hover {
+  display: flex;
+  background-color: #8ca1a5;
+}
+.featured-header {
+  display: flex;
+  justify-content: space-between;
+}
+.featured-button {
+  display: flex;
+}
+.featured-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.featured-btn:hover {
+  background-color: #8ca1a5;
+}
+.featured-btn i {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #666666;
+}
+
+/* ............. Image Box ............*/
+.featured-box {
+  border-radius: 5px;
+  width: 308px;
+  border: 1px solid skyblue;
+  margin-right: 10px;
+  background-color: #dce6f1;
+}
+.featured-section {
+  width: 830px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.image-box img {
+  width: 308px;
+  height: 230px;
+}
+
+.featured-box .about-box {
+  padding: 10px 10px;
+  background-color: white;
+}
+
+.featured-box .about-box p:nth-child(1) {
+  font-weight: 500;
+}
+
+.featured-box .about-box p:nth-child(2) {
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+.slider-carosul {
+  display: flex;
+  position: relative;
+  transition: all 0.3s ease;
+}

@@ -1,0 +1,24 @@
+.about {
+  border: 1px solid skyblue;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  padding: 20px 0;
+  font-weight: 400;
+}
+.see-more {
+  font-weight: bold;
+  color: grey;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  cursor: pointer;
+}

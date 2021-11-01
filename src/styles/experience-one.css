@@ -1,0 +1,52 @@
+.experience {
+  margin: 20px 0;
+  border-bottom: 1px solid skyblue;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.experience-about {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+.experience-company img {
+  width: 56px;
+  height: 56px;
+  margin-right: 10px;
+}
+.experience-company .company p:nth-child(1) {
+  font-weight: bold;
+}
+.experience-company {
+  display: flex;
+  position: relative;
+  margin: 20px 0;
+}
+.experience-company .company p:nth-child(3) {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.experience-company .company {
+  line-height: 150%;
+  word-spacing: 2px;
+}
+
+.editable {
+  font-size: 1.4rem;
+  position: absolute;
+  right: 0;
+}
+.experience i {
+  color: grey;
+  padding: 10px;
+  border-radius: 100%;
+}
+.experience i:hover {
+  background-color: #d6cfc7;
+  cursor: pointer;
+  color: darkgrey;
+}

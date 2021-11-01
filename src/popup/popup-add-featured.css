@@ -1,0 +1,27 @@
+form label {
+  font-size: 1.2rem;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+form input {
+  height: 35px;
+  border: 2px solid skyblue;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+form button {
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #0a66c2;
+  border: 1px solid blue;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  width: 50px;
+}
